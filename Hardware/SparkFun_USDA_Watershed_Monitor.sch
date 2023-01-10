@@ -34133,13 +34133,13 @@ from channel B</text>
 <attribute name="NAME" x="223.52" y="30.988" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="5.08" size="1.778" layer="95"/>
 </instance>
-<instance part="J7" gate="JP1" x="271.78" y="63.5" smashed="yes">
-<attribute name="NAME" x="266.7" y="74.168" size="1.778" layer="95"/>
-<attribute name="VALUE" x="266.7" y="48.26" size="1.778" layer="95"/>
+<instance part="J7" gate="JP1" x="307.34" y="63.5" smashed="yes">
+<attribute name="NAME" x="302.26" y="74.168" size="1.778" layer="95"/>
+<attribute name="VALUE" x="302.26" y="48.26" size="1.778" layer="95"/>
 </instance>
-<instance part="J9" gate="JP1" x="312.42" y="25.4" smashed="yes">
-<attribute name="NAME" x="307.34" y="36.068" size="1.778" layer="95"/>
-<attribute name="VALUE" x="307.34" y="10.16" size="1.778" layer="95"/>
+<instance part="J9" gate="JP1" x="307.34" y="22.86" smashed="yes">
+<attribute name="NAME" x="302.26" y="33.528" size="1.778" layer="95"/>
+<attribute name="VALUE" x="302.26" y="7.62" size="1.778" layer="95"/>
 </instance>
 <instance part="J10" gate="G$1" x="381" y="193.04" smashed="yes">
 <attribute name="VALUE" x="373.634" y="182.88" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
@@ -34151,23 +34151,23 @@ from channel B</text>
 <instance part="SUPPLY9" gate="G$1" x="391.16" y="200.66" smashed="yes">
 <attribute name="VALUE" x="391.16" y="203.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="261.62" y="73.66" smashed="yes">
-<attribute name="VALUE" x="261.62" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="297.18" y="73.66" smashed="yes">
+<attribute name="VALUE" x="297.18" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND14" gate="1" x="261.62" y="48.26" smashed="yes">
-<attribute name="VALUE" x="261.62" y="48.006" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND14" gate="1" x="297.18" y="48.26" smashed="yes">
+<attribute name="VALUE" x="297.18" y="48.006" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY44" gate="G$1" x="302.26" y="35.56" smashed="yes">
-<attribute name="VALUE" x="302.26" y="38.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY44" gate="G$1" x="297.18" y="33.02" smashed="yes">
+<attribute name="VALUE" x="297.18" y="35.814" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND19" gate="1" x="302.26" y="10.16" smashed="yes">
-<attribute name="VALUE" x="302.26" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND19" gate="1" x="297.18" y="7.62" smashed="yes">
+<attribute name="VALUE" x="297.18" y="7.366" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY47" gate="G$1" x="309.88" y="81.28" smashed="yes">
-<attribute name="VALUE" x="309.88" y="84.074" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY47" gate="G$1" x="266.7" y="50.8" smashed="yes">
+<attribute name="VALUE" x="266.7" y="53.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND20" gate="1" x="309.88" y="55.88" smashed="yes">
-<attribute name="VALUE" x="309.88" y="55.626" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND20" gate="1" x="266.7" y="35.56" smashed="yes">
+<attribute name="VALUE" x="266.7" y="35.306" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R9" gate="G$1" x="281.94" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="280.416" y="172.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -34183,9 +34183,9 @@ from channel B</text>
 <instance part="SUPPLY48" gate="G$1" x="281.94" y="195.58" smashed="yes">
 <attribute name="VALUE" x="281.94" y="198.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="J8" gate="J1" x="317.5" y="66.04" smashed="yes" rot="R180">
-<attribute name="VALUE" x="322.58" y="73.406" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="322.58" y="57.912" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J8" gate="J1" x="274.32" y="45.72" smashed="yes" rot="R180">
+<attribute name="VALUE" x="279.4" y="53.086" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="279.4" y="37.592" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -34486,21 +34486,21 @@ from channel B</text>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="309.88" y1="58.42" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="38.1" x2="266.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="40.64" x2="269.24" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="J8" gate="J1" pin="4"/>
 </segment>
 <segment>
 <pinref part="J7" gate="JP1" pin="8"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="264.16" y1="53.34" x2="261.62" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="53.34" x2="261.62" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="53.34" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="53.34" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J9" gate="JP1" pin="8"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="304.8" y1="15.24" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="15.24" x2="302.26" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="12.7" x2="297.18" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="12.7" x2="297.18" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
@@ -34852,21 +34852,21 @@ from channel B</text>
 </segment>
 <segment>
 <pinref part="SUPPLY47" gate="G$1" pin="3.3V"/>
-<wire x1="312.42" y1="63.5" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="63.5" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="43.18" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="43.18" x2="266.7" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J8" gate="J1" pin="3"/>
 </segment>
 <segment>
 <pinref part="J7" gate="JP1" pin="7"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="264.16" y1="55.88" x2="261.62" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="55.88" x2="261.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="55.88" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="55.88" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J9" gate="JP1" pin="7"/>
 <pinref part="SUPPLY44" gate="G$1" pin="3.3V"/>
-<wire x1="304.8" y1="17.78" x2="302.26" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="17.78" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="15.24" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="15.24" x2="297.18" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -35612,8 +35612,8 @@ from channel B</text>
 <label x="55.88" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="33.02" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
-<label x="299.72" y="33.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="30.48" x2="294.64" y2="30.48" width="0.1524" layer="91"/>
+<label x="294.64" y="30.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="1"/>
 </segment>
 </net>
@@ -35666,8 +35666,8 @@ from channel B</text>
 <label x="345.44" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="30.48" x2="299.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="299.72" y="30.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="27.94" x2="294.64" y2="27.94" width="0.1524" layer="91"/>
+<label x="294.64" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="2"/>
 </segment>
 </net>
@@ -35683,8 +35683,8 @@ from channel B</text>
 <label x="345.44" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="27.94" x2="299.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="299.72" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="25.4" x2="294.64" y2="25.4" width="0.1524" layer="91"/>
+<label x="294.64" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="3"/>
 </segment>
 </net>
@@ -35700,8 +35700,8 @@ from channel B</text>
 <label x="345.44" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="25.4" x2="299.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="299.72" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="22.86" x2="294.64" y2="22.86" width="0.1524" layer="91"/>
+<label x="294.64" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="4"/>
 </segment>
 </net>
@@ -35717,8 +35717,8 @@ from channel B</text>
 <label x="345.44" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="22.86" x2="299.72" y2="22.86" width="0.1524" layer="91"/>
-<label x="299.72" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="20.32" x2="294.64" y2="20.32" width="0.1524" layer="91"/>
+<label x="294.64" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="5"/>
 </segment>
 </net>
@@ -35729,8 +35729,8 @@ from channel B</text>
 <label x="55.88" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="20.32" x2="299.72" y2="20.32" width="0.1524" layer="91"/>
-<label x="299.72" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="17.78" x2="294.64" y2="17.78" width="0.1524" layer="91"/>
+<label x="294.64" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="6"/>
 </segment>
 </net>
@@ -35741,8 +35741,8 @@ from channel B</text>
 <label x="55.88" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="264.16" y1="58.42" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
-<label x="259.08" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="58.42" x2="294.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="294.64" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="JP1" pin="6"/>
 </segment>
 </net>
@@ -35753,8 +35753,8 @@ from channel B</text>
 <label x="55.88" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="312.42" y1="68.58" x2="307.34" y2="68.58" width="0.1524" layer="91"/>
-<label x="307.34" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="269.24" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
+<label x="264.16" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J8" gate="J1" pin="1"/>
 </segment>
 </net>
@@ -35765,8 +35765,8 @@ from channel B</text>
 <label x="55.88" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="312.42" y1="66.04" x2="307.34" y2="66.04" width="0.1524" layer="91"/>
-<label x="307.34" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="269.24" y1="45.72" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
+<label x="264.16" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J8" gate="J1" pin="2"/>
 </segment>
 </net>
@@ -35793,8 +35793,8 @@ from channel B</text>
 <label x="55.88" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="264.16" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
-<label x="259.08" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="60.96" x2="294.64" y2="60.96" width="0.1524" layer="91"/>
+<label x="294.64" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="JP1" pin="5"/>
 </segment>
 </net>
@@ -35805,8 +35805,8 @@ from channel B</text>
 <label x="55.88" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="264.16" y1="66.04" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
-<label x="259.08" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="66.04" x2="294.64" y2="66.04" width="0.1524" layer="91"/>
+<label x="294.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="JP1" pin="3"/>
 </segment>
 </net>
@@ -35817,8 +35817,8 @@ from channel B</text>
 <label x="55.88" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="264.16" y1="63.5" x2="259.08" y2="63.5" width="0.1524" layer="91"/>
-<label x="259.08" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="63.5" x2="294.64" y2="63.5" width="0.1524" layer="91"/>
+<label x="294.64" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="JP1" pin="4"/>
 </segment>
 </net>
@@ -35829,8 +35829,8 @@ from channel B</text>
 <label x="55.88" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="264.16" y1="71.12" x2="259.08" y2="71.12" width="0.1524" layer="91"/>
-<label x="259.08" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="71.12" x2="294.64" y2="71.12" width="0.1524" layer="91"/>
+<label x="294.64" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="JP1" pin="1"/>
 </segment>
 </net>
@@ -35841,8 +35841,8 @@ from channel B</text>
 <label x="55.88" y="10.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="264.16" y1="68.58" x2="259.08" y2="68.58" width="0.1524" layer="91"/>
-<label x="259.08" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="299.72" y1="68.58" x2="294.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="294.64" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="JP1" pin="2"/>
 </segment>
 </net>
