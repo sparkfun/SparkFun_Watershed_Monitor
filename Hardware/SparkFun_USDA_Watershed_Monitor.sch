@@ -33736,8 +33736,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY44" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY47" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="R25" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -33752,6 +33750,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="GND58" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND59" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34574,12 +34574,6 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <instance part="GND19" gate="1" x="302.26" y="7.62" smashed="yes">
 <attribute name="VALUE" x="302.26" y="7.366" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY47" gate="G$1" x="269.24" y="71.12" smashed="yes">
-<attribute name="VALUE" x="269.24" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="GND20" gate="1" x="269.24" y="55.88" smashed="yes">
-<attribute name="VALUE" x="269.24" y="55.626" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="R9" gate="G$1" x="281.94" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="280.416" y="172.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="283.464" y="172.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -34627,6 +34621,12 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 </instance>
 <instance part="GND58" gate="1" x="320.04" y="233.68" smashed="yes">
 <attribute name="VALUE" x="320.04" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="GND59" gate="1" x="269.24" y="55.88" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="269.24" y="55.626" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="269.24" y="71.12" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="269.24" y="73.914" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -34926,12 +34926,6 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <junction x="264.16" y="12.7"/>
 </segment>
 <segment>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="269.24" y1="58.42" x2="269.24" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="60.96" x2="271.78" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J8" gate="J1" pin="4"/>
-</segment>
-<segment>
 <pinref part="J7" gate="JP1" pin="8"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="304.8" y1="53.34" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
@@ -34958,6 +34952,12 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="GND58" gate="1" pin="GND"/>
 <wire x1="320.04" y1="236.22" x2="320.04" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND59" gate="1" pin="GND"/>
+<wire x1="271.78" y1="60.96" x2="269.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="60.96" x2="269.24" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J8" gate="J1" pin="4"/>
 </segment>
 </net>
 <net name="SHLD" class="0">
@@ -35265,12 +35265,6 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="SUPPLY47" gate="G$1" pin="3.3V"/>
-<wire x1="271.78" y1="63.5" x2="269.24" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="63.5" x2="269.24" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J8" gate="J1" pin="3"/>
-</segment>
-<segment>
 <pinref part="J7" gate="JP1" pin="7"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <wire x1="304.8" y1="55.88" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
@@ -35281,6 +35275,12 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="SUPPLY44" gate="G$1" pin="3.3V"/>
 <wire x1="304.8" y1="15.24" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="15.24" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="271.78" y1="63.5" x2="269.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="63.5" x2="269.24" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J8" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -35371,6 +35371,11 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <wire x1="381" y1="160.02" x2="378.46" y2="160.02" width="0.1524" layer="91"/>
 <label x="378.46" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="271.78" y1="68.58" x2="266.7" y2="68.58" width="0.1524" layer="91"/>
+<label x="266.7" y="68.58" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J8" gate="J1" pin="1"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -35417,6 +35422,11 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="416.56" y1="160.02" x2="419.1" y2="160.02" width="0.1524" layer="91"/>
 <label x="419.1" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<label x="266.7" y="66.04" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="271.78" y1="66.04" x2="266.7" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J8" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -36157,9 +36167,9 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="55.88" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="58.42" x2="299.72" y2="58.42" width="0.1524" layer="91"/>
-<label x="299.72" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="JP1" pin="6"/>
+<wire x1="304.8" y1="68.58" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
+<label x="299.72" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="JP1" pin="2"/>
 </segment>
 </net>
 <net name="ESP_IO26" class="0">
@@ -36168,22 +36178,12 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <wire x1="53.34" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 <label x="55.88" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
-<segment>
-<wire x1="271.78" y1="68.58" x2="266.7" y2="68.58" width="0.1524" layer="91"/>
-<label x="266.7" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J8" gate="J1" pin="1"/>
-</segment>
 </net>
 <net name="ESP_IO27" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="IOA27"/>
 <wire x1="53.34" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <label x="55.88" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="271.78" y1="66.04" x2="266.7" y2="66.04" width="0.1524" layer="91"/>
-<label x="266.7" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J8" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="V_BATT_2" class="0">
@@ -36209,9 +36209,9 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="55.88" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="60.96" x2="299.72" y2="60.96" width="0.1524" layer="91"/>
-<label x="299.72" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="JP1" pin="5"/>
+<wire x1="304.8" y1="63.5" x2="299.72" y2="63.5" width="0.1524" layer="91"/>
+<label x="299.72" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="JP1" pin="4"/>
 </segment>
 </net>
 <net name="ESP_I34" class="0">
@@ -36233,9 +36233,9 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="55.88" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="63.5" x2="299.72" y2="63.5" width="0.1524" layer="91"/>
-<label x="299.72" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="JP1" pin="4"/>
+<wire x1="304.8" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
+<label x="299.72" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="JP1" pin="1"/>
 </segment>
 </net>
 <net name="ESP_I36" class="0">
@@ -36245,9 +36245,9 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="55.88" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
-<label x="299.72" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="JP1" pin="1"/>
+<wire x1="304.8" y1="60.96" x2="299.72" y2="60.96" width="0.1524" layer="91"/>
+<label x="299.72" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="JP1" pin="5"/>
 </segment>
 </net>
 <net name="ESP_I39" class="0">
@@ -36257,9 +36257,9 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="55.88" y="10.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="68.58" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
-<label x="299.72" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="JP1" pin="2"/>
+<wire x1="304.8" y1="58.42" x2="299.72" y2="58.42" width="0.1524" layer="91"/>
+<label x="299.72" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="JP1" pin="6"/>
 </segment>
 </net>
 <net name="N$23" class="0">
