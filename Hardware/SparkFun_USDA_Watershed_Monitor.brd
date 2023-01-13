@@ -43,7 +43,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
@@ -19428,8 +19428,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$95" library="output" package="Y0" value="" x="15.24" y="29.718" smashed="yes"/>
 <element name="U$96" library="output" package="Z0" value="" x="13.843" y="32.639" smashed="yes"/>
 <element name="U$97" library="output" package="ICM0" value="" x="5.08" y="34.29" smashed="yes"/>
-<element name="U$98" library="output" package="ISM0" value="" x="10.16" y="34.29" smashed="yes"/>
-<element name="U$99" library="output" package="MMC0" value="" x="15.24" y="34.29" smashed="yes"/>
+<element name="U$98" library="output" package="ISM0" value="" x="15.24" y="34.29" smashed="yes"/>
+<element name="U$99" library="output" package="MMC0" value="" x="10.16" y="34.29" smashed="yes"/>
 <element name="U$101" library="output" package="IMU_AXES0" value="" x="10.16" y="36.83" smashed="yes"/>
 <element name="U$100" library="output" package="X0" value="" x="5.08" y="29.718" smashed="yes" rot="MR0"/>
 <element name="U$102" library="output" package="Y0" value="" x="3.429" y="31.496" smashed="yes" rot="MR0"/>
@@ -19441,8 +19441,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$108" library="output" package="Y0" value="" x="15.113" y="29.718" smashed="yes" rot="MR0"/>
 <element name="U$109" library="output" package="Z0" value="" x="13.716" y="32.639" smashed="yes" rot="MR0"/>
 <element name="U$110" library="output" package="ICM0" value="" x="5.08" y="34.29" smashed="yes" rot="MR0"/>
-<element name="U$111" library="output" package="ISM0" value="" x="10.16" y="34.29" smashed="yes" rot="MR0"/>
-<element name="U$112" library="output" package="MMC0" value="" x="15.24" y="34.29" smashed="yes" rot="MR0"/>
+<element name="U$111" library="output" package="ISM0" value="" x="15.24" y="34.29" smashed="yes" rot="MR0"/>
+<element name="U$112" library="output" package="MMC0" value="" x="10.16" y="34.29" smashed="yes" rot="MR0"/>
 <element name="U$113" library="output" package="IMU_AXES0" value="" x="10.16" y="36.83" smashed="yes" rot="MR0"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="46.99" y="59.055" smashed="yes" rot="MR0"/>
 <element name="U$114" library="output" package="USDA0" value="" x="16.51" y="61.595" smashed="yes" rot="MR0"/>
