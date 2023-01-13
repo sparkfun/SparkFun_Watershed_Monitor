@@ -33914,6 +33914,7 @@ Input | Output
 ---------
      0 | HI-Z
      1 | 1</text>
+<text x="144.78" y="104.14" size="1.778" layer="97" font="vector" align="center">I2C address: 0x30</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
