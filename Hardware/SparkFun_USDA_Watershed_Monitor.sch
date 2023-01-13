@@ -26673,6 +26673,76 @@ Part Number: HA-522</description>
 <rectangle x1="3.21" y1="0.54" x2="4.41" y2="2.74" layer="31" rot="R180"/>
 <smd name="2" x="-1.27" y="1.65" dx="2" dy="1" layer="1" rot="R90" stop="no"/>
 </package>
+<package name="PAD.02X.02">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.508" dy="0.508" layer="1" cream="no"/>
+</package>
+<package name="PAD.03X.03">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area:0.015"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
+<package name="1X01_NO_SILK">
+<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="0.95" diameter="1.6" rot="R90"/>
+<text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-C-MINIMUM">
@@ -26815,6 +26885,13 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -27718,6 +27795,68 @@ Note, you may also be interested in the "MAGJACK" version of this. It is basical
 <technology name="">
 <attribute name="PROD_ID" value="CONN-17242" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
+&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POGO_PTH" package="1X01_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -30705,6 +30844,19 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
+<package name="CAP-PTH-10MM">
+<description>2 PTH spaced 10mm apart</description>
+<wire x1="-0.5" y1="0.635" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="0.9" diameter="1.651"/>
+<pad name="2" x="5" y="0" drill="0.9" diameter="1.651"/>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-0.5" y1="0" x2="-0.5" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0.635" x2="0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0" x2="0.5" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-3.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP-2">
@@ -31291,6 +31443,65 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-10108" constant="no"/>
 <attribute name="VALUE" value="330pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10NF" prefix="C">
+<description>&lt;h3&gt;0.01uF/10nF/10,000pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;
+
+CAP-09321</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-10MM-10000V-1-%" package="CAP-PTH-10MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09321"/>
+<attribute name="VALUE" value="10nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-50V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00867"/>
+<attribute name="VALUE" value="10nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-25V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14847" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-25V-10%-X7R-WE" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-16508" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33538,6 +33749,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY49" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
+<part name="GND58" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -33580,7 +33794,7 @@ pins, cut and resolder INT jumpers</text>
 <text x="337.82" y="274.32" size="2.54" layer="94" font="vector" align="center">USB To UART - CH340</text>
 <text x="40.64" y="144.78" size="2.54" layer="94" font="vector" align="center">Accelerometer/Gyroscope - ISM330DHCX</text>
 <text x="142.24" y="144.78" size="2.54" layer="94" font="vector" align="center">Magnetometer - MMC5983MA</text>
-<text x="104.14" y="88.9" size="2.54" layer="94" font="vector" align="center">LoRa - RFM95W</text>
+<text x="106.68" y="88.9" size="2.54" layer="94" font="vector" align="center">LoRa - RFM95W</text>
 <text x="195.58" y="88.9" size="2.54" layer="94" font="vector" align="center">Load Cell - NAU7802</text>
 <text x="35.56" y="88.9" size="2.54" layer="94" font="vector" align="center">ESP32</text>
 <text x="157.48" y="15.24" size="1.778" layer="97" font="vector" align="center">Cut NAU_CAP jumper
@@ -33620,11 +33834,11 @@ from channel B</text>
 <wire x1="246.38" y1="93.98" x2="185.42" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="185.42" y1="93.98" x2="134.62" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="134.62" y1="93.98" x2="96.52" y2="93.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="96.52" y1="93.98" x2="71.12" y2="93.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="71.12" y1="93.98" x2="0" y2="93.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="96.52" y1="93.98" x2="76.2" y2="93.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="76.2" y1="93.98" x2="0" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="96.52" y1="149.86" x2="96.52" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="185.42" y1="149.86" x2="185.42" y2="93.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="71.12" y1="93.98" x2="71.12" y2="0" width="0.2032" layer="97" style="longdash"/>
+<wire x1="76.2" y1="93.98" x2="76.2" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="134.62" y1="93.98" x2="134.62" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="289.56" y="88.9" size="2.54" layer="94" font="vector" align="center">Connectors</text>
 <wire x1="246.38" y1="93.98" x2="246.38" y2="0" width="0.2032" layer="97" style="longdash"/>
@@ -34083,22 +34297,22 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <instance part="ICM_INT" gate="G$1" x="337.82" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="338.582" y="171.704" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
-<instance part="U8" gate="U1" x="340.36" y="248.92" smashed="yes">
-<attribute name="NAME" x="332.74" y="259.715" size="1.778" layer="95"/>
-<attribute name="VALUE" x="332.74" y="233.68" size="1.778" layer="96"/>
+<instance part="U8" gate="U1" x="345.44" y="248.92" smashed="yes">
+<attribute name="NAME" x="337.82" y="259.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="337.82" y="233.68" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="G$1" x="317.5" y="241.3" smashed="yes">
-<attribute name="NAME" x="315.976" y="245.999" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="317.119" y="235.204" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C14" gate="G$1" x="314.96" y="241.3" smashed="yes">
+<attribute name="NAME" x="313.436" y="245.999" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="314.579" y="235.204" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="GND34" gate="1" x="327.66" y="233.68" smashed="yes">
-<attribute name="VALUE" x="327.66" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND34" gate="1" x="332.74" y="233.68" smashed="yes">
+<attribute name="VALUE" x="332.74" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY31" gate="G$1" x="327.66" y="259.08" smashed="yes">
-<attribute name="VALUE" x="327.66" y="261.874" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY31" gate="G$1" x="332.74" y="259.08" smashed="yes">
+<attribute name="VALUE" x="332.74" y="261.874" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND35" gate="1" x="317.5" y="233.68" smashed="yes">
-<attribute name="VALUE" x="317.5" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND35" gate="1" x="314.96" y="233.68" smashed="yes">
+<attribute name="VALUE" x="314.96" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="U9" gate="G$1" x="48.26" y="121.92" smashed="yes">
 <attribute name="NAME" x="38.1" y="137.16" size="1.778" layer="95" font="vector" align="center"/>
@@ -34170,22 +34384,22 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <instance part="SUPPLY39" gate="G$1" x="66.04" y="134.62" smashed="yes">
 <attribute name="VALUE" x="66.04" y="137.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U11" gate="U1" x="104.14" y="45.72" smashed="yes">
-<attribute name="NAME" x="91.472" y="64.04" size="1.778" layer="95"/>
-<attribute name="VALUE" x="91.472" y="28.48" size="1.778" layer="96"/>
+<instance part="U11" gate="U1" x="106.68" y="45.72" smashed="yes">
+<attribute name="NAME" x="94.012" y="64.04" size="1.778" layer="95"/>
+<attribute name="VALUE" x="94.012" y="28.48" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY40" gate="G$1" x="86.36" y="63.5" smashed="yes">
-<attribute name="VALUE" x="86.36" y="66.294" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY40" gate="G$1" x="88.9" y="63.5" smashed="yes">
+<attribute name="VALUE" x="88.9" y="66.294" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND43" gate="1" x="86.36" y="27.94" smashed="yes">
-<attribute name="VALUE" x="86.36" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND43" gate="1" x="88.9" y="27.94" smashed="yes">
+<attribute name="VALUE" x="88.9" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J4" gate="G$1" x="78.74" y="38.1" smashed="yes">
-<attribute name="NAME" x="81.28" y="35.56" size="1.778" layer="95"/>
-<attribute name="VALUE" x="81.28" y="40.64" size="1.778" layer="96"/>
+<instance part="J4" gate="G$1" x="81.28" y="38.1" smashed="yes">
+<attribute name="NAME" x="83.82" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND44" gate="1" x="78.74" y="27.94" smashed="yes">
-<attribute name="VALUE" x="78.74" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND44" gate="1" x="81.28" y="27.94" smashed="yes">
+<attribute name="VALUE" x="81.28" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="ISM_INT1" gate="G$1" x="337.82" y="160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="338.582" y="156.464" size="1.778" layer="95" font="vector" align="center"/>
@@ -34404,6 +34618,16 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <instance part="SUPPLY3" gate="G$1" x="193.04" y="259.08" smashed="yes">
 <attribute name="VALUE" x="193.04" y="261.874" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="TP1" gate="G$1" x="45.72" y="185.42" smashed="yes">
+<attribute name="NAME" x="50.8" y="185.42" size="1.778" layer="95" font="vector" align="center-left"/>
+</instance>
+<instance part="C6" gate="G$1" x="320.04" y="241.3" smashed="yes">
+<attribute name="NAME" x="321.564" y="244.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="319.659" y="235.204" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="GND58" gate="1" x="320.04" y="233.68" smashed="yes">
+<attribute name="VALUE" x="320.04" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -34561,13 +34785,13 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
 <pinref part="U8" gate="U1" pin="GND"/>
-<wire x1="327.66" y1="236.22" x2="327.66" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="238.76" x2="330.2" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="236.22" x2="332.74" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="238.76" x2="335.28" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="317.5" y1="236.22" x2="317.5" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="236.22" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -34613,13 +34837,13 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <segment>
 <pinref part="GND43" gate="1" pin="GND"/>
 <pinref part="U11" gate="U1" pin="GND"/>
-<wire x1="86.36" y1="30.48" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="30.48" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
 <pinref part="J4" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="30.48" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="30.48" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
@@ -34730,6 +34954,11 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <wire x1="38.1" y1="254" x2="38.1" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="256.54" x2="40.64" y2="256.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND58" gate="1" pin="GND"/>
+<wire x1="320.04" y1="236.22" x2="320.04" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="SHLD" class="0">
 <segment>
@@ -34747,8 +34976,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 </segment>
 <segment>
 <pinref part="U8" gate="U1" pin="UD+"/>
-<wire x1="330.2" y1="248.92" x2="327.66" y2="248.92" width="0.1524" layer="91"/>
-<label x="327.66" y="248.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="335.28" y1="248.92" x2="332.74" y2="248.92" width="0.1524" layer="91"/>
+<label x="332.74" y="248.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_DN" class="0">
@@ -34759,8 +34988,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 </segment>
 <segment>
 <pinref part="U8" gate="U1" pin="UD-"/>
-<wire x1="330.2" y1="246.38" x2="327.66" y2="246.38" width="0.1524" layer="91"/>
-<label x="327.66" y="246.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="335.28" y1="246.38" x2="332.74" y2="246.38" width="0.1524" layer="91"/>
+<label x="332.74" y="246.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -34955,18 +35184,14 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U8" gate="U1" pin="V3"/>
 <pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
-<wire x1="330.2" y1="254" x2="327.66" y2="254" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="254" x2="327.66" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="U8" gate="U1" pin="VCC"/>
-<wire x1="327.66" y1="256.54" x2="327.66" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="256.54" x2="327.66" y2="256.54" width="0.1524" layer="91"/>
-<junction x="327.66" y="256.54"/>
+<wire x1="332.74" y1="256.54" x2="332.74" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="256.54" x2="332.74" y2="256.54" width="0.1524" layer="91"/>
+<junction x="332.74" y="256.54"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="246.38" x2="317.5" y2="254" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="254" x2="327.66" y2="254" width="0.1524" layer="91"/>
-<junction x="327.66" y="254"/>
+<wire x1="314.96" y1="246.38" x2="314.96" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="256.54" x2="332.74" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -35019,8 +35244,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <segment>
 <pinref part="U11" gate="U1" pin="3.3V"/>
 <pinref part="SUPPLY40" gate="G$1" pin="3.3V"/>
-<wire x1="88.9" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U12" gate="U1" pin="DVDD"/>
@@ -35228,6 +35453,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <wire x1="43.18" y1="185.42" x2="43.18" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="185.42" x2="43.18" y2="185.42" width="0.1524" layer="91"/>
 <junction x="43.18" y="185.42"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="185.42" x2="43.18" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VDD"/>
@@ -35386,7 +35613,7 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="335.28" y="182.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!ICM_INT_1V8!" class="0">
+<net name="ICM_INT_1V8" class="0">
 <segment>
 <pinref part="Q4" gate="NMOS" pin="S"/>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -35405,8 +35632,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="ESP_RX" class="0">
 <segment>
 <pinref part="U8" gate="U1" pin="TXO"/>
-<wire x1="350.52" y1="256.54" x2="353.06" y2="256.54" width="0.1524" layer="91"/>
-<label x="353.06" y="256.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="355.6" y1="256.54" x2="358.14" y2="256.54" width="0.1524" layer="91"/>
+<label x="358.14" y="256.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="RX-IO3"/>
@@ -35417,8 +35644,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="ESP_TX" class="0">
 <segment>
 <pinref part="U8" gate="U1" pin="RXI"/>
-<label x="353.06" y="254" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="350.52" y1="254" x2="353.06" y2="254" width="0.1524" layer="91"/>
+<label x="358.14" y="254" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="355.6" y1="254" x2="358.14" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="TX-IO1"/>
@@ -35429,8 +35656,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="RTS" class="0">
 <segment>
 <pinref part="U8" gate="U1" pin="!RTS"/>
-<wire x1="350.52" y1="251.46" x2="353.06" y2="251.46" width="0.1524" layer="91"/>
-<label x="353.06" y="251.46" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="355.6" y1="251.46" x2="358.14" y2="251.46" width="0.1524" layer="91"/>
+<label x="358.14" y="251.46" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q6" gate="G1" pin="E"/>
@@ -35447,8 +35674,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="DTR" class="0">
 <segment>
 <pinref part="U8" gate="U1" pin="!DTR"/>
-<wire x1="350.52" y1="248.92" x2="353.06" y2="248.92" width="0.1524" layer="91"/>
-<label x="353.06" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="355.6" y1="248.92" x2="358.14" y2="248.92" width="0.1524" layer="91"/>
+<label x="358.14" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q6" gate="G2" pin="E"/>
@@ -35523,29 +35750,29 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="IO33" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="DIO0"/>
-<wire x1="119.38" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<label x="121.92" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<label x="124.46" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="IO32" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="DIO1"/>
-<wire x1="119.38" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<label x="121.92" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+<label x="124.46" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="IO27" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="DIO2"/>
-<wire x1="119.38" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
-<label x="121.92" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="124.46" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="POCI" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="SDO"/>
-<wire x1="119.38" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
-<label x="121.92" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<label x="124.46" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="POCI2/IOA12"/>
@@ -35556,8 +35783,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="PICO" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="SDI"/>
-<wire x1="119.38" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
-<label x="121.92" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<label x="124.46" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PICO2/IOA13"/>
@@ -35568,8 +35795,8 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="SCK" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="SCK"/>
-<wire x1="119.38" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
-<label x="121.92" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<label x="124.46" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="SCK2/IOA14"/>
@@ -35580,22 +35807,22 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <net name="IO26" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="!CS!"/>
-<wire x1="119.38" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
-<label x="121.92" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<label x="124.46" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!RFM_RST!" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="!RESET"/>
-<wire x1="88.9" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<label x="86.36" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="91.44" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="88.9" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U11" gate="U1" pin="ANT"/>
 <pinref part="J4" gate="G$1" pin="SIGNAL"/>
-<wire x1="83.82" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -35756,7 +35983,7 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <wire x1="408.94" y1="266.7" x2="406.4" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESP_IO0" class="0">
+<net name="ESP_IO0_BOOT" class="0">
 <segment>
 <pinref part="Q6" gate="G2" pin="C"/>
 <wire x1="414.02" y1="271.78" x2="414.02" y2="274.32" width="0.1524" layer="91"/>
@@ -35774,7 +36001,7 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <label x="396.24" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESP_IO2" class="0">
+<net name="STAT" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="IOA2"/>
 <wire x1="53.34" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
@@ -35806,7 +36033,7 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="J9" gate="JP1" pin="1"/>
 </segment>
 </net>
-<net name="ESP_IO4" class="0">
+<net name="ESP_INT_COM" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="IOA4"/>
 <wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
@@ -35959,7 +36186,7 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <pinref part="J8" gate="J1" pin="2"/>
 </segment>
 </net>
-<net name="ESP_IO32" class="0">
+<net name="V_BATT_2" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="XTAL_P/IOA32"/>
 <wire x1="53.34" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
@@ -36108,6 +36335,14 @@ RTS HIGH and DTR LOW to HIGH - resets to bootloader</text>
 <wire x1="193.04" y1="256.54" x2="193.04" y2="259.08" width="0.1524" layer="91"/>
 <junction x="193.04" y="256.54"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="U8" gate="U1" pin="V3"/>
+<wire x1="320.04" y1="246.38" x2="320.04" y2="254" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="254" x2="335.28" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
