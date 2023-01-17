@@ -33676,22 +33676,36 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U9" library="SparkFun-Sensors" deviceset="ISM330DHCX" device=""/>
-<part name="U10" library="SparkFun-Sensors" deviceset="MMC5983MA" device="_QFN16"/>
+<part name="U9" library="SparkFun-Sensors" deviceset="ISM330DHCX" device="" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
+<part name="U10" library="SparkFun-Sensors" deviceset="MMC5983MA" device="_QFN16" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
+<part name="C16" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C17" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
+<part name="C17" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
+<part name="C18" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R21" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="DNP">
+<attribute name="PROD_ID" value=""/>
+</part>
 <part name="SUPPLY37" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="ISM_ADR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
