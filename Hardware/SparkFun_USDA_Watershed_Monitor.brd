@@ -21521,7 +21521,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$14" library="output" package="#CHG#0" value="" x="59.69" y="33.401" smashed="yes" rot="MR0"/>
 <element name="U$15" library="output" package="#I2C#0" value="" x="54.61" y="16.891" smashed="yes" rot="MR0"/>
 <element name="U$16" library="output" package="CHG0" value="" x="59.69" y="30.48" smashed="yes"/>
-<element name="U$17" library="output" package="#CAP#0" value="" x="13.462" y="17.78" smashed="yes" rot="MR270"/>
+<element name="U$17" library="output" package="#CAP#0" value="" x="15.24" y="19.431" smashed="yes" rot="MR0"/>
 <element name="U$18" library="output" package="#BME_ADR#0" value="" x="3.81" y="11.557" smashed="yes" rot="MR90"/>
 <element name="U$19" library="output" package="#ICM_ADR#0" value="" x="31.75" y="18.161" smashed="yes" rot="MR0"/>
 <element name="U$20" library="output" package="#ISM_ADR#0" value="" x="27.305" y="36.068" smashed="yes" rot="MR0"/>
@@ -23025,14 +23025,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="NAU_B-">
 <contactref element="U12" pad="4"/>
 <contactref element="NAU_CAP" pad="2"/>
-<via x="14.605" y="20.066" extent="1-16" drill="0.3048"/>
-<wire x1="14.605" y1="20.066" x2="14.605" y2="18.79" width="0.254" layer="1"/>
-<wire x1="14.605" y1="20.066" x2="14.605" y2="17.8943" width="0.254" layer="16"/>
+<via x="14.605" y="20.32" extent="1-16" drill="0.3048"/>
+<wire x1="14.605" y1="20.32" x2="14.605" y2="18.79" width="0.254" layer="1"/>
+<wire x1="14.605" y1="20.32" x2="14.605" y2="17.8943" width="0.254" layer="16"/>
 <wire x1="14.605" y1="17.8943" x2="14.7193" y2="17.78" width="0.254" layer="16"/>
 <contactref element="J5" pad="4"/>
-<wire x1="14.605" y1="20.066" x2="12.319" y2="17.78" width="0.254" layer="16"/>
+<wire x1="14.605" y1="20.32" x2="12.319" y2="18.034" width="0.254" layer="16"/>
 <wire x1="13.335" y1="14.605" x2="12.319" y2="15.621" width="0.254" layer="16"/>
-<wire x1="12.319" y1="15.621" x2="12.319" y2="17.78" width="0.254" layer="16"/>
+<wire x1="12.319" y1="15.621" x2="12.319" y2="18.034" width="0.254" layer="16"/>
 <wire x1="13.335" y1="14.605" x2="13.335" y2="12.7" width="0.254" layer="16"/>
 <wire x1="14.605" y1="11.43" x2="13.335" y2="12.7" width="0.254" layer="16"/>
 </signal>
