@@ -28930,6 +28930,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 <pin name="VOUT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="V_USB">
+<description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="V_USB" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -29021,6 +29028,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Output voltage &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VOUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V_USB" prefix="SUPPLY">
+<description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="V_USB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -34678,10 +34698,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="SUPPLY55" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R31" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND63" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY56" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY57" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY58" library="SparkFun-PowerSymbols" deviceset="VOUT" device=""/>
+<part name="SUPPLY59" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="SUPPLY60" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35482,7 +35503,7 @@ Input | Output
 </instance>
 <instance part="D5" gate="G$1" x="30.48" y="259.08" smashed="yes">
 <attribute name="NAME" x="30.48" y="257.048" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="33.02" y="261.112" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="35.56" y="261.112" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="38.1" y="261.62" smashed="yes">
 <attribute name="VALUE" x="38.1" y="264.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -35659,9 +35680,6 @@ Input | Output
 <instance part="GND63" gate="1" x="297.18" y="238.76" smashed="yes">
 <attribute name="VALUE" x="297.18" y="238.506" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY56" gate="G$1" x="287.02" y="248.92" smashed="yes">
-<attribute name="VALUE" x="287.02" y="251.714" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY31" gate="G$1" x="307.34" y="261.62" smashed="yes">
 <attribute name="VALUE" x="307.34" y="264.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
@@ -35670,6 +35688,12 @@ Input | Output
 </instance>
 <instance part="SUPPLY58" gate="G$1" x="297.18" y="33.02" smashed="yes">
 <attribute name="VALUE" x="297.18" y="35.814" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY59" gate="G$1" x="15.24" y="261.62" smashed="yes">
+<attribute name="VALUE" x="15.24" y="264.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY60" gate="G$1" x="287.02" y="248.92" smashed="yes">
+<attribute name="VALUE" x="287.02" y="251.714" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -37159,6 +37183,16 @@ Input | Output
 <wire x1="27.94" y1="259.08" x2="25.4" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="259.08" x2="25.4" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="251.46" x2="22.86" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="SUPPLY59" gate="G$1" pin="V_USB"/>
+<junction x="25.4" y="259.08"/>
+<wire x1="15.24" y1="261.62" x2="15.24" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="259.08" x2="25.4" y2="259.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q11" gate="NMOS" pin="G"/>
+<wire x1="289.56" y1="246.38" x2="287.02" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="246.38" x2="287.02" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="SUPPLY60" gate="G$1" pin="V_USB"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -37196,12 +37230,6 @@ Input | Output
 <wire x1="190.5" y1="256.54" x2="190.5" y2="259.08" width="0.1524" layer="91"/>
 <junction x="190.5" y="256.54"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="Q11" gate="NMOS" pin="G"/>
-<pinref part="SUPPLY56" gate="G$1" pin="5V"/>
-<wire x1="289.56" y1="246.38" x2="287.02" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="246.38" x2="287.02" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
