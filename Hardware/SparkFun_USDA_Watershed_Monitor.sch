@@ -36940,16 +36940,6 @@ Input | Output
 <label x="53.34" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ISM_INT1" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
-<label x="340.36" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="ICM_INT" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="175.26" x2="340.36" y2="175.26" width="0.1524" layer="91"/>
-<label x="340.36" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="284.48" y1="121.92" x2="284.48" y2="114.3" width="0.1524" layer="91" style="longdash"/>
 <wire x1="284.48" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91" style="longdash"/>
@@ -36967,14 +36957,19 @@ Input | Output
 <label x="53.34" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ISM_INT2" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="144.78" x2="340.36" y2="144.78" width="0.1524" layer="91"/>
-<label x="340.36" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="307.34" y1="30.48" x2="294.64" y2="30.48" width="0.1524" layer="91"/>
 <label x="294.64" y="30.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="1"/>
+</segment>
+<segment>
+<wire x1="337.82" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
+<label x="340.36" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="ISM_INT1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="337.82" y1="175.26" x2="340.36" y2="175.26" width="0.1524" layer="91"/>
+<label x="340.36" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="ICM_INT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ESP_IO18" class="0">
@@ -36984,14 +36979,14 @@ Input | Output
 <label x="53.34" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MMC_INT" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
-<label x="340.36" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="307.34" y1="27.94" x2="294.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="294.64" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="2"/>
+</segment>
+<segment>
+<wire x1="337.82" y1="144.78" x2="340.36" y2="144.78" width="0.1524" layer="91"/>
+<label x="340.36" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="ISM_INT2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ESP_IO19" class="0">
@@ -37001,14 +36996,14 @@ Input | Output
 <label x="53.34" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="NAU_INT" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="114.3" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
-<label x="340.36" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="307.34" y1="25.4" x2="294.64" y2="25.4" width="0.1524" layer="91"/>
 <label x="294.64" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="3"/>
+</segment>
+<segment>
+<wire x1="337.82" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
+<label x="340.36" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MMC_INT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ESP_IO23" class="0">
@@ -37021,6 +37016,11 @@ Input | Output
 <wire x1="307.34" y1="22.86" x2="294.64" y2="22.86" width="0.1524" layer="91"/>
 <label x="294.64" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="JP1" pin="4"/>
+</segment>
+<segment>
+<pinref part="NAU_INT" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="114.3" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
+<label x="340.36" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ESP_IO25" class="0">
