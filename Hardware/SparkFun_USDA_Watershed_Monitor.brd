@@ -21645,9 +21645,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$46" library="output" package="#PWR#0" value="" x="44.45" y="33.655" smashed="yes" rot="MR0"/>
 <element name="U$52" library="output" package="IO250" value="" x="29.845" y="5.715" smashed="yes" rot="MR0"/>
 <element name="U$54" library="output" package="IO330" value="" x="29.845" y="2.667" smashed="yes" rot="MR0"/>
-<element name="U$58" library="output" package="IO170" value="" x="50.165" y="4.191" smashed="yes" rot="MR0"/>
-<element name="U$59" library="output" package="IO180" value="" x="46.355" y="2.667" smashed="yes" rot="MR0"/>
-<element name="U$60" library="output" package="IO190" value="" x="50.165" y="2.667" smashed="yes" rot="MR0"/>
+<element name="U$58" library="output" package="IO170" value="" x="50.165" y="5.715" smashed="yes" rot="MR0"/>
+<element name="U$59" library="output" package="IO180" value="" x="46.355" y="5.715" smashed="yes" rot="MR0"/>
+<element name="U$60" library="output" package="IO190" value="" x="50.165" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$61" library="output" package="I340" value="" x="33.655" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$62" library="output" package="I350" value="" x="33.655" y="5.715" smashed="yes" rot="MR0"/>
 <element name="U$64" library="output" package="I390" value="" x="29.845" y="4.191" smashed="yes" rot="MR0"/>
@@ -21672,7 +21672,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07828" x="49.53" y="38.1" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="49.53" y="37.338" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$78" library="output" package="IO230" value="" x="46.355" y="4.191" smashed="yes" rot="MR0"/>
+<element name="U$78" library="output" package="IO230" value="" x="46.355" y="2.667" smashed="yes" rot="MR0"/>
 <element name="J8" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="62.23" y="13.97" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.627" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="60.198" y="15.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
@@ -21707,7 +21707,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07828" x="20.32" y="53.34" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.082" y="53.34" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U$49" library="output" package="NC0" value="" x="50.165" y="5.715" smashed="yes" rot="MR0"/>
 <element name="D6" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="15.24" y="26.67" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.24" y="25.908" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-14072" x="16.51" y="26.67" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -21733,7 +21732,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="TRANS-14388" x="40.005" y="17.145" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="41.656" y="14.605" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U$57" library="output" package="NC0" value="" x="46.355" y="5.715" smashed="yes" rot="MR0"/>
+<element name="U$57" library="output" package="NC0" value="" x="46.355" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$117" library="output" package="#5V_IN_#0" value="" x="62.23" y="25.4" smashed="yes"/>
 <element name="U$118" library="output" package="#_5V_IN#0" value="" x="62.23" y="25.4" smashed="yes" rot="MR0"/>
 <element name="R27" library="SparkFun-Resistors" package="0603" value="100k" x="40.005" y="17.145" smashed="yes">
@@ -21746,7 +21745,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-12591" x="2.54" y="34.29" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="3.81" y="32.639" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="U$63" library="output" package="NC0" value="" x="33.655" y="2.667" smashed="yes" rot="MR0"/>
 <element name="Q8" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="25.4" y="28.829" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.9" y="28.229" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="TRANS-14399" x="30.48" y="23.749" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -21809,7 +21807,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$26" library="output" package="VOUT0" value="" x="9.525" y="32.385" smashed="yes"/>
 <element name="U$88" library="output" package="#GPS#0" value="" x="2.54" y="27.94" smashed="yes"/>
 <element name="U$89" library="output" package="GND3" value="" x="9.525" y="34.29" smashed="yes"/>
-<element name="U$25" library="output" package="VO0" value="" x="33.655" y="1.143" smashed="yes" rot="MR0"/>
+<element name="U$25" library="output" package="VO0" value="" x="33.655" y="2.667" smashed="yes" rot="MR0"/>
 <element name="Q10" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="49.149" y="44.45" smashed="yes">
 <attribute name="NAME" x="47.498" y="44.45" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRANS-14388" x="49.149" y="44.45" size="1.778" layer="27" display="off"/>
@@ -21827,6 +21825,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$5" library="output" package="#IO17#0" value="" x="39.497" y="39.37" smashed="yes" rot="MR0"/>
 <element name="U$68" library="output" package="#IO23#0" value="" x="39.497" y="49.53" smashed="yes" rot="MR0"/>
+<element name="U$24" library="output" package="3V30" value="" x="33.655" y="1.143" smashed="yes" rot="MR0"/>
+<element name="U$69" library="output" package="VO0" value="" x="50.165" y="2.667" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
