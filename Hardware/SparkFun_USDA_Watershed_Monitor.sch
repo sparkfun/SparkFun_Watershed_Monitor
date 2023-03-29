@@ -34877,6 +34877,11 @@ V_USB is not present for low-power
 applications. Note that ESP_IO1/3
 should be disabled in this case to
 prevent back powering the CH340</text>
+<text x="274.32" y="104.14" size="1.778" layer="97" font="vector" align="center">Drive ESP_IO16 low to
+enable VOUT, which
+powers onboard sensors
+and LoRa module, plus
+connected peripherals</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -36962,7 +36967,7 @@ prevent back powering the CH340</text>
 <pinref part="R28" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ESP_IO16/VOUT" class="0">
+<net name="ESP_IO16/!VOUT_EN!" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="IO16"/>
 <wire x1="50.8" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
