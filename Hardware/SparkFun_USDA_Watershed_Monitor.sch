@@ -36844,9 +36844,9 @@ Input | Output
 <junction x="167.64" y="48.26"/>
 </segment>
 <segment>
-<pinref part="J5" gate="JP1" pin="4"/>
-<wire x1="261.62" y1="22.86" x2="254" y2="22.86" width="0.1524" layer="91"/>
-<label x="254" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="261.62" y1="20.32" x2="254" y2="20.32" width="0.1524" layer="91"/>
+<label x="254" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J5" gate="JP1" pin="5"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -36869,9 +36869,9 @@ Input | Output
 <junction x="167.64" y="22.86"/>
 </segment>
 <segment>
-<pinref part="J5" gate="JP1" pin="5"/>
-<wire x1="261.62" y1="20.32" x2="254" y2="20.32" width="0.1524" layer="91"/>
-<label x="254" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="261.62" y1="22.86" x2="254" y2="22.86" width="0.1524" layer="91"/>
+<label x="254" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J5" gate="JP1" pin="4"/>
 </segment>
 </net>
 <net name="N$18" class="0">
