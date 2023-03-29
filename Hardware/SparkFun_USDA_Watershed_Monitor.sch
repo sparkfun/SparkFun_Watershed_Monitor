@@ -34872,6 +34872,11 @@ Input | Output
 <text x="373.38" y="88.9" size="2.54" layer="94" font="vector" align="center">External I2C Level Shifters</text>
 <wire x1="281.94" y1="215.9" x2="281.94" y2="279.4" width="0.1524" layer="97" style="longdash"/>
 <wire x1="368.3" y1="215.9" x2="368.3" y2="279.4" width="0.2032" layer="97" style="longdash"/>
+<text x="337.82" y="261.62" size="1.778" layer="97" font="vector" align="center">CH340 will be powered down when
+V_USB is not present for low-power
+applications. Note that ESP_IO1/3
+should be disabled in this case to
+prevent back powering the CH340</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
