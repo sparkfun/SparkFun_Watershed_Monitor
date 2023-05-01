@@ -21217,10 +21217,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="TRANS-14388" x="53.34" y="36.83" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="54.991" y="36.83" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="53.34" y="34.29" smashed="yes" rot="R180">
+<element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="53.34" y="34.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="33.528" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-14072" x="53.34" y="34.29" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="53.34" y="35.052" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-11623" x="53.34" y="34.29" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="1A/23V/620mV" x="53.34" y="35.052" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="100k" x="49.53" y="34.29" smashed="yes">
 <attribute name="NAME" x="49.53" y="35.052" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -21705,10 +21705,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$79" library="output" package="#GND_#0" value="" x="62.23" y="27.94" smashed="yes"/>
 <element name="U$80" library="output" package="#_GND#0" value="" x="62.23" y="27.94" smashed="yes" rot="MR0"/>
-<element name="D5" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="52.959" y="45.466" smashed="yes">
+<element name="D5" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="52.959" y="45.466" smashed="yes">
 <attribute name="NAME" x="52.959" y="46.228" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-14072" x="51.689" y="45.466" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="52.959" y="44.704" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-11623" x="51.689" y="45.466" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="1A/23V/620mV" x="52.959" y="44.704" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.04" value="TEST-POINT3X4" x="31.75" y="24.13" smashed="yes" rot="MR0"/>
 <element name="C6" library="SparkFun-Capacitors" package="0603" value="10nF" x="55.88" y="58.42" smashed="yes">
@@ -21729,10 +21729,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07828" x="20.32" y="53.34" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.082" y="53.34" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D6" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="15.24" y="26.67" smashed="yes" rot="R180">
+<element name="D6" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="15.24" y="26.67" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.24" y="25.908" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-14072" x="16.51" y="26.67" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="15.24" y="27.432" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-11623" x="16.51" y="26.67" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="1A/23V/620mV" x="15.24" y="27.432" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="Q5" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="36.83" y="24.13" smashed="yes">
 <attribute name="NAME" x="35.179" y="24.13" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
