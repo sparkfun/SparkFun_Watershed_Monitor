@@ -34708,7 +34708,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <sheet>
 <plain>
 <text x="358.14" y="12.7" size="2.54" layer="94" font="vector" align="center">Dryw Wade</text>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v11</text>
 <text x="27.94" y="274.32" size="2.54" layer="94" font="vector" align="center">USB Connector</text>
 <text x="121.92" y="274.32" size="2.54" layer="94" font="vector" align="center">3V3 Regulator</text>
 <text x="243.84" y="274.32" size="2.54" layer="94" font="vector" align="center">Battery Charger</text>
